@@ -1,6 +1,6 @@
 const Footer =()=> {
     return(<footer>
-        <p>&copy; Copyright,2024</p>
+        <p>Happy Coding!</p>
     </footer>)
 }
 
