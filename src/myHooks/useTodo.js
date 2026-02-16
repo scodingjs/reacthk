@@ -5,7 +5,7 @@ export default function useTodo(){
     const [todoList, setTodoList] = useState([])
     const addTodo = (todoText) => {
         const newTodo = {
-            id:Math.floor(Math.radon*109999),
+            id:Math.floor(Date.now() + Math.random()*109999),
             text:todoText
         }
         setTodoList((prev) => [...prev,newTodo])

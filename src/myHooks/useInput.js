@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 export default function useInput(initialValue = ""){
-    const[value, setValue]=useState(initialValue)
+    const[todoValue, setValue]=useState(initialValue)
 
     const onChange = (event) =>{
-        setValue(event.target.vaue)
+        setValue(event.target.value)
     }
 
     const reset = () => {
@@ -12,7 +12,7 @@ export default function useInput(initialValue = ""){
     }
 
     return{
-        value,
+        todoValue,
         onChange,
         reset
     }

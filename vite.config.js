@@ -7,7 +7,9 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
   server:{
     port:3000,
-    open:true
+    open:true,
+    allowedHosts:'all',
+    host:'0.0.0.0'
   },
   esbuild: {
     loader: 'jsx',
