@@ -4,15 +4,19 @@ export default function useInput(initialValue = ""){
     const[todoValue, setValue]=useState(initialValue)
 
     const onChange = (event) =>{
-        setValue(event.target.value)
+        const { type,checked,value} = event.target
+        console.log(event,type,checked,value)
+        setValue(type === "checkbox" ? checked : value)
+        console.log(todoValue,"?")
     }
 
     const reset = () => {
-        setValue("")
+        setValue(initialValue)
     }
 
     return{
         todoValue,
+        setValue,
         onChange,
         reset
     }
