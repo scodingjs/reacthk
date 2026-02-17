@@ -3,11 +3,13 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
 
-
+import ErrorBoundary from './errorHandler/ErrorComponent';
 
 
 function App() {
   return (
+    <ErrorBoundary>
+
     <div className="min-h-screen bg-slate-900" data-testid="app-container">
       <Header />
       
@@ -19,6 +21,7 @@ function App() {
 
       <Footer />
     </div>
+    </ErrorBoundary>
   );
 }
 
