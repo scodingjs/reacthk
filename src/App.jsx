@@ -8,10 +8,10 @@ import ErrorBoundary from './errorHandler/ErrorComponent';
 
 function App() {
   return (
-    <ErrorBoundary>
-
+    
     <div className="min-h-screen bg-slate-900" data-testid="app-container">
       <Header />
+      <ErrorBoundary>
       
       <main className="max-w-6xl mx-auto px-6 py-8">
         {/* useBoolean Demo */}
@@ -19,9 +19,9 @@ function App() {
 
       </main>
 
+    </ErrorBoundary>
       <Footer />
     </div>
-    </ErrorBoundary>
   );
 }
 
