@@ -6,6 +6,11 @@ A portfolio-ready React project demonstrating senior-level design patterns and c
 ### Screenhot
 [Image](./Screenshot_1.png)
 
+
+### Deployment
+[Live](https://shoppinglistmgt.netlify.app/)
+
+
 ### Custom Hooks Implemented
 
 #### 1. `useTodo` - Todo List Management
