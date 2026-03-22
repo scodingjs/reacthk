@@ -1,8 +1,10 @@
-# React Design Patterns - Senior Level Implementation
-
+# React Design Patterns - 
 A portfolio-ready React project demonstrating senior-level design patterns and custom hooks.
 
 ## 🎯 Features
+
+### Screenhot
+[Image](./Screenshot_1.png)
 
 ### Custom Hooks Implemented
 

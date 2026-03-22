@@ -9,7 +9,7 @@ const LeftColumnComponent = ({ message }) => {
       className="p-4 bg-emerald-500/20 rounded-xl border border-emerald-500/30"
       data-testid="left-column"
     >
-      <h3 className="text-emerald-400 font-semibold mb-2">Existing ToDo's</h3>
+      <h3 className="text-emerald-400 font-semibold mb-2">Existing Shopping List</h3>
       <p className="text-slate-300">{message}</p>
       <TodoList />
     </div>

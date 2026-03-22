@@ -19,7 +19,7 @@ export default function TodoForm() {
 
         <form onSubmit={formSubmit} className="mt-3 space-y-3">
             <div className="flex flex-col gap-1">
-                <label className="text-sm text-rose-300 font-medium">Enter Todo List:</label>
+                <label className="text-sm text-rose-300 font-medium">Enter Item To Shopping List:</label>
                 <input
                     type="text"
                     value={todoValue}
@@ -40,7 +40,7 @@ export default function TodoForm() {
                transition-all duration-200 hover:shadow-rose-500/40
                active:scale-[0.98]"
             >
-                Add Todo
+                Add Item
             </button>
         </form>
 
