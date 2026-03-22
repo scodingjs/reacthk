@@ -11,7 +11,7 @@ export default function TodoList() {
         >
             <article className="space-y-2">
                 {todoList.length === 0 && (
-                    <p className="text-slate-500 text-center py-4 italic">No todos yet</p>
+                    <p className="text-slate-500 text-center py-4 italic">No Items added yet</p>
                 )}
                 {todoList.map((todo) => (
                     <div
