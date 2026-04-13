@@ -1,7 +1,7 @@
 # React Design Patterns - 
 A portfolio-ready React project demonstrating senior-level design patterns and custom hooks.
 
-## 🎯 Features
+## Features
 
 ### Screenhot
 [Image](./Screenshot_1.png)
@@ -39,7 +39,7 @@ The `SplitScreen` component demonstrates the compound component pattern:
 - Destructures into left/right components
 - Flexible sizing via props
 
-## 🐛 Bugs Fixed
+## Bugs Fixed
 
 | File | Bug | Fix |
 |------|-----|-----|
@@ -71,7 +71,7 @@ npm run build
 - **Tailwind CSS 4** - Styling
 - **styled-components** - CSS-in-JS for SplitScreen
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -89,11 +89,11 @@ src/
 └── index.css           # Global styles
 ```
 
-## 📚 Learning Resources
+##  Learning Resources
 
 - [LinkedIn Learning - React Design Patterns](https://www.linkedin.com/learning/react-design-patterns-25656257/)
 - [Udemy - React for Senior Engineers](https://gale.udemy.com/course/react-for-senior-engineers/)
 
-## 📝 License
+## License
 
 MIT
